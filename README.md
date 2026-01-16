@@ -1,6 +1,8 @@
 This program maps DNA sequencing reads to a reference genome (specifically E. coli) to determine where each read originates.
 
 To run place reads into reads.fastq, because I couldn't upload on github since it is too large. 
+Then run ```main.cpp```. 
+For tests run ```tests.cpp```
 
 Algorithms used:
 
@@ -25,4 +27,5 @@ Also, reads are split into batches, because my laptop can't handle everything at
 
 3. Genome Coverage:
     - Covered Bases:    4591389
+
     - Coverage %:       98.9171%
